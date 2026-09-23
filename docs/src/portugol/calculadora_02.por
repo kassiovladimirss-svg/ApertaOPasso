@@ -1,6 +1,6 @@
 programa{
     funcao inicio(){
-        inteiro numTab, contador, tempo 
+        inteiro numTab, contador, termo 
 
         numTab = 0
         termo = 0
