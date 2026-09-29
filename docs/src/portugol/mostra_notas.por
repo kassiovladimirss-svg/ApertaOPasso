@@ -2,14 +2,16 @@ programa{
     //mostra notas.por
     funcao inicio(){
         real notas[4]
+        inteiro i = 0
         
 
-        para(inteiro i = 0; 1 <= 3; 1 = 1 + 1){
-             escreva("Informe a nota: ")
+        para(inteiro i = 0; i <= 3; i = i + 1){
+             escreva("Informe a nota ", i + 1, ": ")
              leia(notas[0])
-             escreva("Nota: ", notas[0])
         }
 
-        para(1 = 0; 1 )
+        para(i = 0; i <= 3; i = i + 1){
+             escreva("Nota ", i + 1, )
+        }
     }
 }
